@@ -1,1 +1,1 @@
-# .vimrc
+# All my vim configuration files
