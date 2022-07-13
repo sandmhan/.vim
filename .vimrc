@@ -1,14 +1,20 @@
 "Indentation Settings:
 
-"Size of Tab (Not for insertions, for \t)
-set tabstop=8
+"Number of spaces a [TAB] is represented as
+set tabstop=4
 
 "Size of inserted tabs in editor
-set softtabstop=2
+set softtabstop=4
+
+set shiftwidth=4
 
 "Turns tabs into spaces for editing
 set expandtab
 
+"Keeps indents consistent with level of program
+set autoindent
+
+set smartindent
 
 "Appearances:
 
@@ -20,7 +26,7 @@ set cursorline
 
 "go to /usr/share/vim/vim81/syntax for color schemes
 "Color Scheme Setting
-"colorscheme <colorscheme>
+colorscheme torte
 
 "Display Line Numbers
 set number
