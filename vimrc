@@ -1,4 +1,6 @@
+"===================================================
 "Indentation Settings:
+"===================================================
 
 "Number of spaces a [TAB] is represented as
 set tabstop=4
@@ -16,7 +18,9 @@ set autoindent
 
 set smartindent
 
+"===================================================
 "Appearances:
+"===================================================
 
 "Turns on Syntax Highlighting
 syntax on
@@ -40,7 +44,13 @@ filetype indent on
 "Show matching brackets
 set showmatch
 
+set scrolloff=8
+set sidescrolloff=8
+
+
+"===================================================
 "Searching
+"===================================================
 
 "Incremental searches as you type
 set incsearch
@@ -55,5 +65,5 @@ nnoremap <leader><space> :nohlsearch<CR>
 set mouse=a
 
 "Enables clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed
 
